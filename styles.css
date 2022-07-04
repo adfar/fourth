@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    background-image: url("https://1.bp.blogspot.com/-YW-zCeJaST0/YEa1KIncAPI/AAAAAAAA5Fs/MN7ZqlSZZpMWG-BVCMkBK7ZlyPGm4wdkwCLcBGAsYHQ/s0/Flag_of_the_United_States.gif");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.15;
+}
+
+h3 {
+    font-size: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 30vw;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.7vw;
+}
